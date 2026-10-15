@@ -1,8 +1,8 @@
 # GameShelf – Download
 
-**Version 1.6.0** · Erstellt von 1nf3ct10n
+**[⬇️ Aktuelle Version herunterladen](https://github.com/1nf3ct10nn/GameShelf-Download/releases/latest)** · Erstellt von 1nf3ct10n
 
-GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spiele an einem Ort zeigt – mit Covern, kurzen Gameplay-Clips, Favoriten und einem „Spielen“-Knopf. Alles bleibt lokal auf deinem Rechner: Es gibt kein Konto, GameShelf lädt keine Cover herunter und sendet keine Daten an einen Server.
+GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spiele an einem Ort zeigt – mit Covern, kurzen Gameplay-Clips, Favoriten und einem „Spielen“-Knopf. Alles bleibt lokal auf deinem Rechner: Es gibt kein Konto, GameShelf lädt keine Cover herunter und sendet keine persönlichen Daten an einen Server. (Einzige Verbindung: die abschaltbare Update-Prüfung fragt höchstens einmal am Tag bei GitHub nach der neuesten Version. Der Discord-Status läuft nur lokal über die Discord-App auf deinem PC.)
 
 ---
 
@@ -32,7 +32,7 @@ GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spie
 
 ## Installation
 
-1. Unter **[Releases](https://github.com/1nf3ct10nn/GameShelf-Download/releases/latest)** die ZIP-Datei (z. B. `GameShelf-1.6.0.zip`) herunterladen und **entpacken** (Rechtsklick → „Alle extrahieren …“).
+1. Unter **[Releases](https://github.com/1nf3ct10nn/GameShelf-Download/releases/latest)** die ZIP-Datei `GameShelf-<Version>.zip` herunterladen und **entpacken** (Rechtsklick → „Alle extrahieren …“).
 2. `GameShelf.exe` doppelklicken.
 3. Windows zeigt eventuell „Der Computer wurde durch Windows geschützt“ (SmartScreen), weil die App nicht digital signiert ist. Dann auf **„Weitere Informationen“** und danach **„Trotzdem ausführen“** klicken.
 4. Optional, aber empfohlen: In der App **„App & Updates“ → „Desktop einrichten / Verknüpfung reparieren“** wählen. Dann wird GameShelf fest nach `%LOCALAPPDATA%\Programs\GameShelf` kopiert und eine Desktop-Verknüpfung angelegt.

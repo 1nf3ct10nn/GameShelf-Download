@@ -1,6 +1,6 @@
 # GameShelf – Download
 
-**Version 1.5.2** · Erstellt von 1nf3ct10n
+**Version 1.5.3** · Erstellt von 1nf3ct10n
 
 GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spiele an einem Ort zeigt – mit Covern, kurzen Gameplay-Clips, Favoriten und einem „Spielen“-Knopf. Alles bleibt lokal auf deinem Rechner: Es gibt kein Konto, GameShelf lädt keine Cover herunter und sendet keine Daten an einen Server.
 
@@ -19,6 +19,7 @@ GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spie
 - **Eigene Cover** – „•••“ → „Cover ändern …“ (JPG/PNG). In den Spieldetails kannst du zum Original-Cover zurück.
 - **Gameplay-Clips als animiertes Cover** – „•••“ → „Gameplay-Clip …“ bzw. „Gameplay-Clip ersetzen …“. Erlaubt sind GIF sowie Videos (MP4, WMV, MOV) bis 80 MB. Videos laufen stumm in einer Schleife von ca. 25 Sekunden.
 - **Clip-Optimierung (automatisch)** – Videos werden im Hintergrund einmalig in eine leichte Kopie umgewandelt (H.264, max. 960 Pixel breit, max. 30 Bilder/s, ohne Ton, max. 25 Sekunden). Die Kopie läuft flüssiger und spart Leistung. Das Original bleibt unverändert. Solange die Umwandlung läuft, wird das Original abgespielt.
+- **Update-Hinweis** – GameShelf schaut beim Start (höchstens einmal am Tag, im Hintergrund) nach, ob es eine neue Version gibt. Wenn ja, erscheint oben ein kleiner Hinweis mit „Zur Download-Seite“ und „Später“. Es wird nichts automatisch heruntergeladen oder installiert. Unter „App & Updates“ kannst du auch selbst „Nach Updates suchen“ oder die automatische Prüfung abschalten.
 - **Spieldetails** – Klick auf ein Spiel zeigt Plattform, Größe, letzten Start, Installationsordner und alle Aktionen.
 
 ## Voraussetzungen
@@ -29,7 +30,7 @@ GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spie
 
 ## Installation
 
-1. Unter **[Releases](https://github.com/1nf3ct10nn/GameShelf-Download/releases/latest)** die ZIP-Datei (z. B. `GameShelf-1.5.2.zip`) herunterladen und **entpacken** (Rechtsklick → „Alle extrahieren …“).
+1. Unter **[Releases](https://github.com/1nf3ct10nn/GameShelf-Download/releases/latest)** die ZIP-Datei (z. B. `GameShelf-1.5.3.zip`) herunterladen und **entpacken** (Rechtsklick → „Alle extrahieren …“).
 2. `GameShelf.exe` doppelklicken.
 3. Windows zeigt eventuell „Der Computer wurde durch Windows geschützt“ (SmartScreen), weil die App nicht digital signiert ist. Dann auf **„Weitere Informationen“** und danach **„Trotzdem ausführen“** klicken.
 4. Optional, aber empfohlen: In der App **„App & Updates“ → „Desktop einrichten / Verknüpfung reparieren“** wählen. Dann wird GameShelf fest nach `%LOCALAPPDATA%\Programs\GameShelf` kopiert und eine Desktop-Verknüpfung angelegt.
@@ -40,7 +41,7 @@ GameShelf ist eine kleine Windows-App, die alle auf deinem PC installierten Spie
 2. Im laufenden GameShelf **„App & Updates“ → „Neue Version installieren …“** wählen und die neue `GameShelf.exe` aus dem entpackten Ordner auswählen.
 3. GameShelf schließt sich, installiert die neue Version und behält alle deine Daten (Favoriten, Cover, Clips, Verlauf). Vor der Installation wird automatisch eine Sicherung angelegt.
 
-Es gibt **kein automatisches Update** – du entscheidest selbst, wann du aktualisierst.
+Es gibt **kein automatisches Update** – GameShelf weist dich nur auf neue Versionen hin, du entscheidest selbst, wann du aktualisierst.
 
 ## Wo liegen meine Daten?
 
